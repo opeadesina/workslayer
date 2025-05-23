@@ -9,5 +9,6 @@ toolbar.addEventListener('click', (event) => {
   if (event.target.matches('button[data-toggle-theme]')) {
     // Toggle the "dark" class on the document body
     document.body.classList.toggle('dark');
+    document.body.classList.toggle('light');
   }
 });
